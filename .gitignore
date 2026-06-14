@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ChromaDB data
+backend/data/chroma_db/
+
+# Env files
+.env
+backend/.env
+frontend/.env
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+
+# Uploaded APKs (if any test files)
+*.apk
+!sample_apks/.gitkeep
